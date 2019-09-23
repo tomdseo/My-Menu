@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body cz-shortcut-listen="true">
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <a class="navbar-brand d-flex align-items-center" [routerLink] = "['/']">MyMenu</a>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-light" [routerLink] = "['/menu']">See Menu</a>
+        <a class="p-2 text-light" [routerLink] = "['/menu/new']">Add Menu</a>
+      </nav>
+    </div>
+  </header>
+  <router-outlet></router-outlet>
+  </body>
+</html>
+
+
+
+
